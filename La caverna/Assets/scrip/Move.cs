@@ -46,3 +46,4 @@ public class Move : MonoBehaviour
     {
         rb2d.velocity = new Vector2(Horizontal * Speed, rb2d.velocity.y);
     }
+}
