@@ -6,44 +6,45 @@ using UnityEngine;
 public class Move : MonoBehaviour
 {
     //esto aparece en script
-    public float Speed;
-    public float JumpForce;
+    public CharacterController2D controller;
+    public float Speed = 40f;
 
+    
     //esto lo mandamos a llamar adentro del juego
     private Rigidbody2D rb2d; //gravedad
-    private float Horizontal;//movimiento horizontal
-    private bool Grounded; //piso
-
+    float horizontalMove = 0f;//movimiento horizontal
+    bool Jump= false; //salto 
+    bool Crouch = false; // agacharse
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>(); //para que al inicio tenga gravedad
 
     }
-    //codigo de salto
+    //codigo de movimiento, llamado una vez por cada frame
     void Update()
     {
-        Horizontal = Input.GetAxisRaw("Horizontal"); //movimiento horizontal
+        horizontalMove = Input.GetAxisRaw("Horizontal")* Speed; //movimiento horizontal
 
-        Debug.DrawRay(transform.position, Vector3.down * 1.0f, Color.red);
-        if (Physics2D.Raycast(transform.position, Vector3.down, 0.1f))
+        if (Input.GetButtonDown("Jump")) //Se llama cuando se presiona el botón
         {
-            Grounded = true;
+            Jump = true;
 
         }
-        else
+        if (Input.GetButtonDown("Crouch")) // Se llama cuando se presiona el botón 
         {
-            Grounded = false;
+            Crouch = true;
+        } else if (Input.GetButtonUp("Crouch")) // La acción continúa hasta que se suelta el botón 
+        {
+            Crouch = false;
         }
 
-        if (Input.GetKeyDown(KeyCode.W) && Grounded) // brinco
-        {
-            rb2d.AddForce(Vector2.up * JumpForce);
-        }
     }
 
-    private void FixedUpdate()
-    //fisicas de movimiento
-    {
-        rb2d.velocity = new Vector2(Horizontal * Speed, rb2d.velocity.y);
-    }
+        void FixedUpdate()
+        //fisicas de movimiento, esto se agrega para que sin importar la cantidad de veces q se presione el botón, el movimiento será fluido
+        // Y si algún botón de movimiento no es presionado, entonces son falsos
+        {
+            controller.Move(horizontalMove * Time.fixedDeltaTime, Crouch, Jump);
+            Jump = false;
+        }
 }
