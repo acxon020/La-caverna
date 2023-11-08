@@ -25,14 +25,17 @@ public class Move : MonoBehaviour
     {
         horizontalMove = Input.GetAxisRaw("Horizontal")* Speed; //movimiento horizontal
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump")) //Se llama cuando se presiona el botón
         {
             Jump = true;
 
         }
-        if (Input.GetButtonDown("Crouch"))
+        if (Input.GetButtonDown("Crouch")) // Se llama cuando se presiona el botón 
         {
             Crouch = true;
+        } else if (Input.GetButtonUp("Crouch")) // La acción continúa hasta que se suelta el botón 
+        {
+            Crouch = false;
         }
 
     }
@@ -43,6 +46,5 @@ public class Move : MonoBehaviour
         {
             controller.Move(horizontalMove * Time.fixedDeltaTime, Crouch, Jump);
             Jump = false;
-            Crouch = false;
         }
 }
