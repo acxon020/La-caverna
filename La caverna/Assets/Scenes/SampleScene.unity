@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 27095528}
   - component: {fileID: 27095530}
   - component: {fileID: 27095529}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fONDO DE PLATAFORMAS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6721,8 +6721,8 @@ Transform:
   m_GameObject: {fileID: 73030497}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.02, y: 0.091, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.017, y: 0.078, z: 0}
+  m_LocalScale: {x: 0.00036417402, y: 0.00036417402, z: 0.00036417402}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1571122934}
@@ -6821,7 +6821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 284228706}
   - component: {fileID: 284228705}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: background3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8003,8 +8003,8 @@ Transform:
   m_GameObject: {fileID: 898798357}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.05, y: -0.165, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.017, y: -0.116, z: 0}
+  m_LocalScale: {x: 0.29664272, y: 0.29664272, z: 0.29664272}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1571122934}
@@ -9085,9 +9085,10 @@ GameObject:
   - component: {fileID: 1571122933}
   - component: {fileID: 1571122936}
   - component: {fileID: 1571122935}
+  - component: {fileID: 1571122939}
   - component: {fileID: 1571122937}
   - component: {fileID: 1571122938}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: artur
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9155,8 +9156,8 @@ Transform:
   m_GameObject: {fileID: 1571122932}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.36, y: 6.14, z: 0}
-  m_LocalScale: {x: 3.4063752, y: 3.011832, z: 1}
+  m_LocalPosition: {x: -9.43, y: 4.47, z: 0}
+  m_LocalScale: {x: 3.8089428, y: 2.6710646, z: 1.1181808}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 898798358}
@@ -9195,8 +9196,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.26999998, y: 0.36000004}
+  m_Offset: {x: 0.03, y: -0.04}
+  m_Size: {x: 0.1604503, y: 0.2288024}
   m_Direction: 0
 --- !u!50 &1571122936
 Rigidbody2D:
@@ -9252,21 +9253,66 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_JumpForce: 150
-  m_CrouchSpeed: 0.5
-  m_MovementSmoothing: 0.14
+  m_CrouchSpeed: 0.11
+  m_MovementSmoothing: 0
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 64
   m_GroundCheck: {fileID: 898798358}
   m_CeilingCheck: {fileID: 73030498}
-  m_CrouchDisableCollider: {fileID: 0}
+  m_CrouchDisableCollider: {fileID: 1571122939}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
   OnCrouchEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!61 &1571122939
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571122932}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.030000001, y: 0.08971131}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.35}
+    newSize: {x: 0.27, y: 0.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.13984405, y: 0.1618824}
+  m_EdgeRadius: 0
 --- !u!1 &1752158616
 GameObject:
   m_ObjectHideFlags: 0
@@ -9281,7 +9327,7 @@ GameObject:
   - component: {fileID: 1752158620}
   - component: {fileID: 1752158619}
   - component: {fileID: 1752158618}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BASE SUELO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29745,7 +29791,7 @@ GameObject:
   - component: {fileID: 2055354499}
   - component: {fileID: 2055354501}
   - component: {fileID: 2055354500}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FONDO SUELO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
