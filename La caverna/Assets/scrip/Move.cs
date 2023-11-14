@@ -7,7 +7,8 @@ public class Move : MonoBehaviour
 {
     //esto aparece en script
     public CharacterController2D controller;
-    public float Speed = 40f;
+    public Animator animator;
+    public float Speed = 10f;
 
     
     //esto lo mandamos a llamar adentro del juego
@@ -25,9 +26,14 @@ public class Move : MonoBehaviour
     {
         horizontalMove = Input.GetAxisRaw("Horizontal")* Speed; //movimiento horizontal
 
+        animator.SetFloat ("Speed", Mathf.Abs(horizontalMove)); //el animador requiere de una velocidad
+        //Y debido a que tiene que ser positiva, al presionar direccion izq, sería negativo. Para eso ayuda
+        // "Math.Abs"
+
         if (Input.GetButtonDown("Jump")) //Se llama cuando se presiona el botón
         {
             Jump = true;
+            animator.SetBool("IsJumping", true);
 
         }
         if (Input.GetButtonDown("Crouch")) // Se llama cuando se presiona el botón 
@@ -40,6 +46,15 @@ public class Move : MonoBehaviour
 
     }
 
+    public void OnLanding ()  //Aquí se crea una función que se conecta con el controlador y dice cuando dejar de saltar
+    {
+        animator.SetBool("IsJumping", false);
+    }
+
+    public void OnCrouching (bool IsCrouching)
+    {
+        animator.SetBool("IsCrouching", IsCrouching);
+    }
         void FixedUpdate()
         //fisicas de movimiento, esto se agrega para que sin importar la cantidad de veces q se presione el botón, el movimiento será fluido
         // Y si algún botón de movimiento no es presionado, entonces son falsos
