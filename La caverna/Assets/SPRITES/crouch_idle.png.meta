@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 531f6025ade1369428840162dd892108
+guid: 3111a6cabf51e8548bd72c7ee1edeabc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: props2_0
+      name: crouch_idle_0
       rect:
         serializedVersion: 2
-        x: 69
-        y: 848
-        width: 283
-        height: 170
+        x: 0
+        y: 192
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37684205e90b00f4b91e135b1eb90555
-      internalID: -552448329
+      spriteID: d6c58b98b72a36e4abe219f3b8cc2570
+      internalID: 2054386235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props2_1
+      name: crouch_idle_1
       rect:
         serializedVersion: 2
-        x: 391
-        y: 848
-        width: 218
-        height: 138
+        x: 128
+        y: 192
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acb8fd3cc456ef5459bb463cae9e2094
-      internalID: 373997229
+      spriteID: 2448cd5c8c5866c48bd0d0995898c668
+      internalID: 1685771311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props2_2
+      name: crouch_idle_2
       rect:
         serializedVersion: 2
-        x: 690
-        y: 848
-        width: 94
-        height: 66
+        x: 0
+        y: 128
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 071ae7a695909da4eb5ec46d49d7d030
-      internalID: -1343450885
+      spriteID: b41e5d8f127bb264b8d5ece892a5436f
+      internalID: 2030381008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props2_3
+      name: crouch_idle_3
       rect:
         serializedVersion: 2
-        x: 855
-        y: 848
-        width: 133
-        height: 75
+        x: 128
+        y: 128
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e293f0f51ef6c8942a74e64f1c2c273f
-      internalID: 1478811924
+      spriteID: 00416b7d09585744d9a6338f96e1f390
+      internalID: -1092151936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props2_4
+      name: crouch_idle_4
       rect:
         serializedVersion: 2
-        x: 69
-        y: 646
-        width: 283
-        height: 170
+        x: 0
+        y: 64
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c313705c6bf6b04799dda44bafe1bfb
-      internalID: 331080409
+      spriteID: 13ad1d18aa442ef4d84c86f016a60d13
+      internalID: 2078673743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props2_5
+      name: crouch_idle_5
       rect:
         serializedVersion: 2
-        x: 391
-        y: 678
-        width: 218
-        height: 138
+        x: 128
+        y: 64
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d3fd42d973986642a18c047a06ad1c5
-      internalID: 1049072180
+      spriteID: cf0a8b38b89ebb8429c2171756ae724a
+      internalID: -871930096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props2_6
+      name: crouch_idle_6
       rect:
         serializedVersion: 2
-        x: 690
-        y: 750
-        width: 94
-        height: 66
+        x: 0
+        y: 0
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b5a8d30ebcbfb546a80ab7bbdf41cec
-      internalID: -2120392810
+      spriteID: 39070e4636c047b4cae7c7ef2eb31d89
+      internalID: 1913370602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props2_7
+      name: crouch_idle_7
       rect:
         serializedVersion: 2
-        x: 855
-        y: 741
-        width: 133
-        height: 75
+        x: 128
+        y: 0
+        width: 128
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,92 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bca8de20ff0d49043a468fada2293662
-      internalID: -633629923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: props2_8
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 256
-        width: 330
-        height: 265
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f7814ae44e2d5e42bb25fdda5a42764
-      internalID: -2001707941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: props2_9
-      rect:
-        serializedVersion: 2
-        x: 609
-        y: 320
-        width: 302
-        height: 183
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1420eb26747cd2741aaaa6865156ad2f
-      internalID: -1915077422
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: props2_10
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 16
-        width: 353
-        height: 144
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd5bd0623a68e3e41808a69457347895
-      internalID: 284083080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: props2_11
-      rect:
-        serializedVersion: 2
-        x: 435
-        y: 16
-        width: 571
-        height: 265
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97727ba5f8096bd42a3b6ed7f5e52005
-      internalID: 1274768607
+      spriteID: 18b783f510bb44945811960f3fa72b85
+      internalID: 1992430390
       vertices: []
       indices: 
       edges: []
@@ -385,18 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      props2_0: -552448329
-      props2_1: 373997229
-      props2_10: 284083080
-      props2_11: 1274768607
-      props2_2: -1343450885
-      props2_3: 1478811924
-      props2_4: 331080409
-      props2_5: 1049072180
-      props2_6: -2120392810
-      props2_7: -633629923
-      props2_8: -2001707941
-      props2_9: -1915077422
+      crouch_idle_0: 2054386235
+      crouch_idle_1: 1685771311
+      crouch_idle_2: 2030381008
+      crouch_idle_3: -1092151936
+      crouch_idle_4: 2078673743
+      crouch_idle_5: -871930096
+      crouch_idle_6: 1913370602
+      crouch_idle_7: 1992430390
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
