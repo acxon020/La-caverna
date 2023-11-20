@@ -2906,13 +2906,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 517788200}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.5122223, y: 0.4817953, z: 4.8100905}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9999795, w: 0.006406169}
+  m_LocalPosition: {x: -6.93, y: 1.65, z: 4.8100905}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2035364515}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 179.266}
 --- !u!212 &517788202
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3027,7 +3027,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3.6178305
+  orthographic size: 3.1369717
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3051,13 +3051,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.000009374693, z: -0, w: 1}
-  m_LocalPosition: {x: -10.07, y: 5.82, z: -10}
-  m_LocalScale: {x: 3.1806927, y: 6.9028287, z: 1}
+  m_LocalRotation: {x: -0.0002617804, y: -0.000008800916, z: -0.000000002303907, w: 1}
+  m_LocalPosition: {x: -12.25, y: 11.8, z: -10}
+  m_LocalScale: {x: 3.2369907, y: 6.9371963, z: 1.0177}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -0.001, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.03, y: -0.001, z: 0}
 --- !u!114 &519420033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5612,7 +5612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1571122938}
   animator: {fileID: 1571122940}
-  Speed: 20
+  Speed: 15
 --- !u!114 &1571122938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5626,7 +5626,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_JumpForce: 250
-  m_CrouchSpeed: 0.11
+  m_CrouchSpeed: 0.35
   m_MovementSmoothing: 0
   m_AirControl: 1
   m_WhatIsGround:

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d78114d530ec2df448bc55cae3b1b48c
+guid: a333e3156753d2240ab7d176692c8beb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 2
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 48
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jump_0
+      name: attack_from_air_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,20 +131,20 @@ TextureImporter:
         width: 128
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a89be8fc8f27d3d4d8b778bd32c17d30
-      internalID: 2053198992
+      spriteID: cfdb8a6cde7106649b0d07f4717d6488
+      internalID: -1746508909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump_1
+      name: attack_from_air_1
       rect:
         serializedVersion: 2
         x: 128
@@ -152,20 +152,20 @@ TextureImporter:
         width: 128
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1971023a0fc77084986409ee01757651
-      internalID: 1632097872
+      spriteID: 5d45c6b4f735bc8419822151eafe9d00
+      internalID: -481438923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump_2
+      name: attack_from_air_2
       rect:
         serializedVersion: 2
         x: 0
@@ -173,20 +173,20 @@ TextureImporter:
         width: 128
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5a7328a6bbb1aa44bbfc589494441bd
-      internalID: -662203334
+      spriteID: ba365310502371f478127ee749880666
+      internalID: 1143740789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump_3
+      name: attack_from_air_3
       rect:
         serializedVersion: 2
         x: 128
@@ -194,20 +194,20 @@ TextureImporter:
         width: 128
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44515b8c732a1ee4bb195f65fe751978
-      internalID: -181152957
+      spriteID: f9007e8ed7fb2ff4f88a6a87a2fbe558
+      internalID: 75308143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump_4
+      name: attack_from_air_4
       rect:
         serializedVersion: 2
         x: 0
@@ -215,20 +215,20 @@ TextureImporter:
         width: 128
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b1d88f62be927e4396edfb68d1f1805
-      internalID: -2118260883
+      spriteID: e7d719be901e1ec41a11d9cb0dc12958
+      internalID: -1341828790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump_5
+      name: attack_from_air_5
       rect:
         serializedVersion: 2
         x: 128
@@ -236,20 +236,20 @@ TextureImporter:
         width: 128
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26b1e637e1d22074e90c258aa1f68463
-      internalID: -417521512
+      spriteID: 22761683d9e06f54d86f5c3d4dbf3f9f
+      internalID: -412177494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump_6
+      name: attack_from_air_6
       rect:
         serializedVersion: 2
         x: 0
@@ -257,20 +257,20 @@ TextureImporter:
         width: 128
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49b77bc1c5390294e9eaaf9b31bb7cf9
-      internalID: 329798205
+      spriteID: c0c696fe025df69469504289a1d5767c
+      internalID: -1610867128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump_7
+      name: attack_from_air_7
       rect:
         serializedVersion: 2
         x: 128
@@ -278,14 +278,14 @@ TextureImporter:
         width: 128
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4be9d992c4d3bfb489cf754cac25d1d9
-      internalID: -2146563750
+      spriteID: 12f0eb0e4e2a64948998a8b6456f6035
+      internalID: 785250717
       vertices: []
       indices: 
       edges: []
@@ -301,14 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jump_0: 2053198992
-      Jump_1: 1632097872
-      Jump_2: -662203334
-      Jump_3: -181152957
-      Jump_4: -2118260883
-      Jump_5: -417521512
-      Jump_6: 329798205
-      Jump_7: -2146563750
+      attack_from_air_0: -1746508909
+      attack_from_air_1: -481438923
+      attack_from_air_2: 1143740789
+      attack_from_air_3: 75308143
+      attack_from_air_4: -1341828790
+      attack_from_air_5: -412177494
+      attack_from_air_6: -1610867128
+      attack_from_air_7: 785250717
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

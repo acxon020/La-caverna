@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4620c128ba2fe4f42bfad0e3da23c497
+guid: 01bfdfb3384d32047a6fcdbbf7652811
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 2
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Run_0
+      name: crouch_attacks_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,20 +131,20 @@ TextureImporter:
         width: 128
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7847026c3744fa74e982afa2d8c08e38
-      internalID: 1255543571
+      spriteID: a5e679105e1db5949bde6a7d0ccc37f3
+      internalID: 1282720330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_1
+      name: crouch_attacks_1
       rect:
         serializedVersion: 2
         x: 128
@@ -152,20 +152,20 @@ TextureImporter:
         width: 128
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f54fd3ae9eb710248b5147ec61fbbb75
-      internalID: -326405804
+      spriteID: 5f57192bd59b2a64282b64b3e236622d
+      internalID: -652716536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_2
+      name: crouch_attacks_2
       rect:
         serializedVersion: 2
         x: 0
@@ -173,20 +173,20 @@ TextureImporter:
         width: 128
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7b8b6c2b977fe04d911d6aa1e35ddc9
-      internalID: 1824001456
+      spriteID: c02cfd94ee4735244a6e5d65edb8aa05
+      internalID: -1407227064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_3
+      name: crouch_attacks_3
       rect:
         serializedVersion: 2
         x: 128
@@ -194,20 +194,20 @@ TextureImporter:
         width: 128
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1958e24ac19e24489bfbaf1fec280a2
-      internalID: -368680303
+      spriteID: a3c736885b24fe74890d7badd0dc9653
+      internalID: 61390122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_4
+      name: crouch_attacks_4
       rect:
         serializedVersion: 2
         x: 0
@@ -215,20 +215,20 @@ TextureImporter:
         width: 128
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c670b30e4a428b545abf39c000f0a102
-      internalID: 681288761
+      spriteID: 85be55e414a5d0849b7025458e61e407
+      internalID: 1981208004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_5
+      name: crouch_attacks_5
       rect:
         serializedVersion: 2
         x: 128
@@ -236,20 +236,20 @@ TextureImporter:
         width: 128
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 871bfc4af532a13468f72f6f0478dc0b
-      internalID: 847747897
+      spriteID: d23fd9886e03b584e996f7dbe485c6d7
+      internalID: -97381737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_6
+      name: crouch_attacks_6
       rect:
         serializedVersion: 2
         x: 0
@@ -257,20 +257,20 @@ TextureImporter:
         width: 128
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 394631b4a1a257545b56258874947cff
-      internalID: 1837338443
+      spriteID: c2ce8d9d437fc5d4f91b7079cec719bd
+      internalID: 531681767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_7
+      name: crouch_attacks_7
       rect:
         serializedVersion: 2
         x: 128
@@ -278,14 +278,14 @@ TextureImporter:
         width: 128
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb7a6dd36cdd2014c9139d14d4b4084b
-      internalID: -237825397
+      spriteID: 32154bd4f28f82b4dac2b4e0d2134f97
+      internalID: -1150509556
       vertices: []
       indices: 
       edges: []
@@ -301,14 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Run_0: 1255543571
-      Run_1: -326405804
-      Run_2: 1824001456
-      Run_3: -368680303
-      Run_4: 681288761
-      Run_5: 847747897
-      Run_6: 1837338443
-      Run_7: -237825397
+      crouch_attacks_0: 1282720330
+      crouch_attacks_1: -652716536
+      crouch_attacks_2: -1407227064
+      crouch_attacks_3: 61390122
+      crouch_attacks_4: 1981208004
+      crouch_attacks_5: -97381737
+      crouch_attacks_6: 531681767
+      crouch_attacks_7: -1150509556
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
