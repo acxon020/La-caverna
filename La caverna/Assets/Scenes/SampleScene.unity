@@ -2053,8 +2053,8 @@ Transform:
   m_GameObject: {fileID: 73030497}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.047, y: 0.184, z: 0}
-  m_LocalScale: {x: -0.010342685, y: -0.010342685, z: -0.010342685}
+  m_LocalPosition: {x: 0.06, y: 0.2, z: 0}
+  m_LocalScale: {x: 3.8540313, y: 3.8540313, z: 3.8540313}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1571122934}
@@ -3027,7 +3027,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3.1369717
+  orthographic size: 2.2724435
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3052,9 +3052,9 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0.0002617804, y: -0.000008800916, z: -0.000000002303907, w: 1}
-  m_LocalPosition: {x: -12.25, y: 11.8, z: -10}
-  m_LocalScale: {x: 3.2369907, y: 6.9371963, z: 1.0177}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -11.86, y: 11.76, z: -10}
+  m_LocalScale: {x: 10.039915, y: 28.048355, z: 4.509312}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -0.03, y: -0.001, z: 0}
@@ -5459,6 +5459,7 @@ GameObject:
   - component: {fileID: 1571122939}
   - component: {fileID: 1571122937}
   - component: {fileID: 1571122938}
+  - component: {fileID: 1571122941}
   - component: {fileID: 1571122940}
   m_Layer: 3
   m_Name: artur
@@ -5612,7 +5613,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1571122938}
   animator: {fileID: 1571122940}
-  Speed: 15
 --- !u!114 &1571122938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5627,7 +5627,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_JumpForce: 250
   m_CrouchSpeed: 0.35
-  m_MovementSmoothing: 0
+  m_MovementSmoothing: 0.023
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
@@ -5731,6 +5731,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1571122941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571122932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 837d4f0f6dc2c0840b50cabc923227b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1571122940}
 --- !u!1 &1611898885
 GameObject:
   m_ObjectHideFlags: 0

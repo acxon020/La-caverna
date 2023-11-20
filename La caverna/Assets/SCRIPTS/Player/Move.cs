@@ -8,7 +8,7 @@ public class Move : MonoBehaviour
     //esto aparece en script
     public CharacterController2D controller;
     public Animator animator;
-    public float Speed = 10f;
+    private float Speed = 15f;
 
     
     //esto lo mandamos a llamar adentro del juego
