@@ -106,11 +106,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spiderqueen_0
+      name: spiderqueen 12_0
       rect:
         serializedVersion: 2
         x: 23
@@ -124,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 198eadff0c0c96d4fb307de64bafaacc
-      internalID: 1678839098
+      spriteID: 29d705301f9d4134184cf36394127695
+      internalID: 401248015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_1
+      name: spiderqueen 12_1
       rect:
         serializedVersion: 2
         x: 215
@@ -145,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0109e0414e88ed43a265acb211297df
-      internalID: -1947564861
+      spriteID: d8845861f3e2596458538c864bc00a35
+      internalID: 2100038251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_2
+      name: spiderqueen 12_2
       rect:
         serializedVersion: 2
         x: 407
@@ -166,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28732a09b4c974f44816a363a73083e8
-      internalID: -1576970945
+      spriteID: e984a35f794303745a5ccdf71cfd920e
+      internalID: 359593433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_3
+      name: spiderqueen 12_3
       rect:
         serializedVersion: 2
         x: 599
@@ -187,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77fbe4ab11e285f40b3ceb5221256914
-      internalID: 1625752040
+      spriteID: 9869c33156a57c7498750211f2aeec4f
+      internalID: -850395350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_4
+      name: spiderqueen 12_4
       rect:
         serializedVersion: 2
         x: 791
@@ -208,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a375bc1f8d599f46afe817d6e064352
-      internalID: -1745864880
+      spriteID: 8e747582c1b82a747a7715045b11ee41
+      internalID: 1361005106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_5
+      name: spiderqueen 12_5
       rect:
         serializedVersion: 2
         x: 983
@@ -229,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d4253a2ea817fc40b087e5e33c7376d
-      internalID: 1968167456
+      spriteID: f6726b0f21a002d43b9769ba45a3808d
+      internalID: 948485026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_6
+      name: spiderqueen 12_6
       rect:
         serializedVersion: 2
         x: 1175
@@ -250,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 639a189dbc77dae47a10c278a70a4491
-      internalID: 682598564
+      spriteID: 3cecd0c488b883e41b8e57b7bfbaf36f
+      internalID: 1152425745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_7
+      name: spiderqueen 12_7
       rect:
         serializedVersion: 2
         x: 1366
@@ -271,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61ad7253be01b6144b33e360a132da8d
-      internalID: -1331129317
+      spriteID: 05fdb14317423f84fa3fca8799d11a50
+      internalID: 1670199107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_8
+      name: spiderqueen 12_8
       rect:
         serializedVersion: 2
         x: 1559
@@ -292,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4379da8557bb8bd46acc1d539e76d996
-      internalID: -1313133034
+      spriteID: 9d39eac7bbaab8246802547a36608b15
+      internalID: -1783452861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_9
+      name: spiderqueen 12_9
       rect:
         serializedVersion: 2
         x: 1751
@@ -313,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fd03b73914e00a48849084e7df642aa
-      internalID: 122361239
+      spriteID: 3ccbcfd75cdf935418737975634c1e34
+      internalID: -936736055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_10
+      name: spiderqueen 12_10
       rect:
         serializedVersion: 2
         x: 23
@@ -334,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f67809176b0ba7429df1757b7304ef4
-      internalID: 2023080778
+      spriteID: 62056a7670c928b418212e6327fb1a97
+      internalID: 1639032502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_11
+      name: spiderqueen 12_11
       rect:
         serializedVersion: 2
         x: 215
@@ -355,14 +368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68146fc20be2af74aafded3e8fce2c12
-      internalID: 20630180
+      spriteID: eb9df997ae9dcf047943354c1bbca80a
+      internalID: -1861662466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_12
+      name: spiderqueen 12_12
       rect:
         serializedVersion: 2
         x: 407
@@ -376,14 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16a07aed77351694daf73ca02d7ae2cb
-      internalID: 1253069985
+      spriteID: 1478a2950959529458bb95b14d2ff5d0
+      internalID: -37557672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_13
+      name: spiderqueen 12_13
       rect:
         serializedVersion: 2
         x: 599
@@ -397,14 +410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b9128f45885dc14fa4a2b035fa715ee
-      internalID: 33391343
+      spriteID: f85ecf7536489a643b4aa3751d84522e
+      internalID: -1690414810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_14
+      name: spiderqueen 12_14
       rect:
         serializedVersion: 2
         x: 794
@@ -418,14 +431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eeafa919ce6a3ee408e6e070999060f0
-      internalID: -513350125
+      spriteID: 2889da33eec696f489533348e70f8105
+      internalID: -672578254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_15
+      name: spiderqueen 12_15
       rect:
         serializedVersion: 2
         x: 990
@@ -439,14 +452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7323b851db385e9429bd0584e5385b2e
-      internalID: 149697698
+      spriteID: 007b2c69233510049b441984e8652ec3
+      internalID: -1185920359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_16
+      name: spiderqueen 12_16
       rect:
         serializedVersion: 2
         x: 1161
@@ -460,14 +473,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 514fd9eac0e318545a777107d234caba
-      internalID: 289766401
+      spriteID: 790bd504a102cf74aa06d967906ae544
+      internalID: -691971614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_17
+      name: spiderqueen 12_17
       rect:
         serializedVersion: 2
         x: 1353
@@ -481,14 +494,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 448a724ad74de694cbabd57ec991946c
-      internalID: -347001687
+      spriteID: 8d5dd6c42ea80f34880042143ea4edbd
+      internalID: 2028895729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_18
+      name: spiderqueen 12_18
       rect:
         serializedVersion: 2
         x: 1566
@@ -502,14 +515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f625ee8eff60b3f4cb32b5e5ac5e8217
-      internalID: 1873086618
+      spriteID: a0df5d73c0809ab4486e2fea2ee66488
+      internalID: 1494337768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_19
+      name: spiderqueen 12_19
       rect:
         serializedVersion: 2
         x: 1751
@@ -523,14 +536,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2d8be8c72e6e7640aac9d7f4bf5c4b0
-      internalID: 1718077066
+      spriteID: 7975e6ff00fa73d469f84e71b4597e3c
+      internalID: -1008532946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_20
+      name: spiderqueen 12_20
       rect:
         serializedVersion: 2
         x: 26
@@ -544,14 +557,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7a0bbbee93b008428730bff566bc19f
-      internalID: -347302166
+      spriteID: 1842ae8e71bb61d45b1bb15c434cc1a7
+      internalID: 1033409551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_21
+      name: spiderqueen 12_21
       rect:
         serializedVersion: 2
         x: 222
@@ -565,14 +578,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff21e841044c79c488b727c6462dd11a
-      internalID: 1662850039
+      spriteID: f364370d882a5a242b627dd9def21272
+      internalID: 2114492420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_22
+      name: spiderqueen 12_22
       rect:
         serializedVersion: 2
         x: 401
@@ -586,14 +599,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67a6485df71e3e648851497141775a52
-      internalID: -373026475
+      spriteID: 864978cbd4ae7d641adb4cb26ad06070
+      internalID: -1409461690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_23
+      name: spiderqueen 12_23
       rect:
         serializedVersion: 2
         x: 593
@@ -607,14 +620,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abd35bbc6995fd240b9be08f0d2b44d3
-      internalID: -686555900
+      spriteID: 9bd4cba9b4806fd41aa2ab5da4226137
+      internalID: 1861765313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_24
+      name: spiderqueen 12_24
       rect:
         serializedVersion: 2
         x: 785
@@ -628,14 +641,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48fd6ef7597a92f4d95c9e13a95d5990
-      internalID: -2082712726
+      spriteID: 31e2ff7ca01e09a4d93c8714fd138fa0
+      internalID: 1018757291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_25
+      name: spiderqueen 12_25
       rect:
         serializedVersion: 2
         x: 978
@@ -649,14 +662,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5b8c74820486b645a6ecb3d930e9fd4
-      internalID: -1281275755
+      spriteID: 09139f24795917842b09a933100d8069
+      internalID: -1572686700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_26
+      name: spiderqueen 12_26
       rect:
         serializedVersion: 2
         x: 1178
@@ -670,14 +683,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13368f7a44ac97f48bd0923c99438d7d
-      internalID: -1341088864
+      spriteID: 4e253499456f6264c9afd3406ff64534
+      internalID: -560051878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_27
+      name: spiderqueen 12_27
       rect:
         serializedVersion: 2
         x: 1379
@@ -691,14 +704,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed89a9c8c8931574d8d8356ba8e90230
-      internalID: 1141552777
+      spriteID: 69f72dffd336ee240bf0eb4f1a08b13b
+      internalID: 8738602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiderqueen_28
+      name: spiderqueen 12_28
       rect:
         serializedVersion: 2
         x: 1562
@@ -712,8 +725,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9e94bc21ade83f4bb50f33556f5e4c8
-      internalID: -183330011
+      spriteID: 25e73a396f2ab024a8cb94afc97bbf24
+      internalID: 1570106098
       vertices: []
       indices: 
       edges: []
@@ -729,35 +742,35 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spiderqueen_0: 1678839098
-      spiderqueen_1: -1947564861
-      spiderqueen_10: 2023080778
-      spiderqueen_11: 20630180
-      spiderqueen_12: 1253069985
-      spiderqueen_13: 33391343
-      spiderqueen_14: -513350125
-      spiderqueen_15: 149697698
-      spiderqueen_16: 289766401
-      spiderqueen_17: -347001687
-      spiderqueen_18: 1873086618
-      spiderqueen_19: 1718077066
-      spiderqueen_2: -1576970945
-      spiderqueen_20: -347302166
-      spiderqueen_21: 1662850039
-      spiderqueen_22: -373026475
-      spiderqueen_23: -686555900
-      spiderqueen_24: -2082712726
-      spiderqueen_25: -1281275755
-      spiderqueen_26: -1341088864
-      spiderqueen_27: 1141552777
-      spiderqueen_28: -183330011
-      spiderqueen_3: 1625752040
-      spiderqueen_4: -1745864880
-      spiderqueen_5: 1968167456
-      spiderqueen_6: 682598564
-      spiderqueen_7: -1331129317
-      spiderqueen_8: -1313133034
-      spiderqueen_9: 122361239
+      spiderqueen 12_0: 401248015
+      spiderqueen 12_1: 2100038251
+      spiderqueen 12_10: 1639032502
+      spiderqueen 12_11: -1861662466
+      spiderqueen 12_12: -37557672
+      spiderqueen 12_13: -1690414810
+      spiderqueen 12_14: -672578254
+      spiderqueen 12_15: -1185920359
+      spiderqueen 12_16: -691971614
+      spiderqueen 12_17: 2028895729
+      spiderqueen 12_18: 1494337768
+      spiderqueen 12_19: -1008532946
+      spiderqueen 12_2: 359593433
+      spiderqueen 12_20: 1033409551
+      spiderqueen 12_21: 2114492420
+      spiderqueen 12_22: -1409461690
+      spiderqueen 12_23: 1861765313
+      spiderqueen 12_24: 1018757291
+      spiderqueen 12_25: -1572686700
+      spiderqueen 12_26: -560051878
+      spiderqueen 12_27: 8738602
+      spiderqueen 12_28: 1570106098
+      spiderqueen 12_3: -850395350
+      spiderqueen 12_4: 1361005106
+      spiderqueen 12_5: 948485026
+      spiderqueen 12_6: 1152425745
+      spiderqueen 12_7: 1670199107
+      spiderqueen 12_8: -1783452861
+      spiderqueen 12_9: -936736055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
