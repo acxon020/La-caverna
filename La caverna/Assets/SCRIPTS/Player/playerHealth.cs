@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Player_Health : MonoBehaviour
@@ -7,11 +6,15 @@ public class Player_Health : MonoBehaviour
     public int health;
     public int maxHealth = 10;
     public Animator animator;
-    
+
+    public SpriteRenderer playerSr;
+    public Move PlayerMovement;
+    #region
     private bool IsHurt = false;
     private bool IsDying = false;
     private float hurtAnimationDuration = 0.200f;
-
+    private float DyingAnimationDuration = 1f;
+    #endregion
     void Start()
     {
         health = maxHealth;
@@ -23,12 +26,26 @@ public class Player_Health : MonoBehaviour
         {
             StartCoroutine(ResetHurtFlag());
         }
+
+        if (IsDying)
+        {
+            StartCoroutine(ResetDyingFlag());
+        }
+    }
+
     IEnumerator ResetHurtFlag()
     {
         yield return new WaitForSeconds(hurtAnimationDuration);
         animator.SetBool("IsHurt", false);
         IsHurt = false;
     }
+
+    IEnumerator ResetDyingFlag()
+    {
+        yield return new WaitForSeconds(DyingAnimationDuration);
+        animator.SetBool("IsDying", false);
+        IsDying = false;
+        playerSr.enabled = false;
     }
 
     public void TakeDamage(int amount)
@@ -47,6 +64,7 @@ public class Player_Health : MonoBehaviour
         {
             animator.SetBool("IsDying", true);
             IsDying = true;
+            PlayerMovement.enabled = false;
         }
     }
 }
