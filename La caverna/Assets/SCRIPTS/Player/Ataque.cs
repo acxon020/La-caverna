@@ -5,9 +5,12 @@ using UnityEngine;
 public class Ataque : MonoBehaviour
 {
     private int Combocounter = 0;
-    public float tiempoMaxCombo = 1f; // Tiempo máximo entre golpes para contar como parte del combo
+    public float tiempoMaxCombo = 0.5f;
     private float LastHitTime;
     public Animator animator;
+
+    // Referencia al script AtaqueColliding
+    public AtaqueColliding ataqueColliding;
 
     // Update is called once per frame
     void Update()
@@ -17,6 +20,7 @@ public class Ataque : MonoBehaviour
             Attack();
         }
     }
+
 
     void Attack()
     {
@@ -53,4 +57,5 @@ public class Ataque : MonoBehaviour
 
         LastHitTime = Time.time; // Actualiza el tiempo del último golpe
     }
+
 }
