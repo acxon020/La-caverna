@@ -6,8 +6,7 @@ public class MenuPrincipal : MonoBehaviour
 {
  public void play()
  {
-    SceneManager.LoadScene("SampleScene");
-
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
  }
     
 public void Exit()
